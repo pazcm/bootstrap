@@ -18,6 +18,7 @@ body {
     
     display: flex; /* align callout text vertically */
     align-items: center;
+    position: relative;
 }
 
 .quotes-container {
@@ -51,4 +52,13 @@ body {
     color:#f7e285;
     font-size: 75%;
     font-style: italic;
+}
+
+.overlay-opaque {
+    position:absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .8);
 }
