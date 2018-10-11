@@ -168,3 +168,20 @@ body {
     background-color: orange;
 }
 
+/* Alert */
+
+.alert-container .col-xs-12 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.site-wide-alert {
+    border-radius: 0;
+    margin: 0;
+    padding: 2px;
+    background-color: #f5d148;
+    color: #000;
+    border-color: #f5d148;
+}
+
+
