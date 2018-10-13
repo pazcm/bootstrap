@@ -33,6 +33,11 @@ body {
     
 }
 
+.container-wrapper--orange {
+    background-color: #f1b04e;
+    color: #eee;
+}
+
 /* jumbotron */
 
 .jumbotron {
@@ -69,14 +74,18 @@ body {
     background-color: rgba(0, 0, 0, .6);
 }
 
-/* block divider */
+/* block dividers */
 
 .block-divider {
-    padding-top: 30px;
-    width: 20%;
+    padding-top: 0px;
+    width: 10%;
 }
 .block-divider--light {
-    color: #eee;
+    background-color: #eee;
+}
+
+.block-divider--orange {
+    background-color:#f1b04e;
 }
 
 /* central sign up button */
@@ -191,5 +200,7 @@ body {
     text-align: center;
     margin-bottom: 0;
 }
+
+
 
 
